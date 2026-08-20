@@ -1,0 +1,25 @@
+h1 {
+    color: pink;
+    background-color: black;
+    font-size:80px;
+}
+h2{
+    color:blue;
+    background-color: white;
+    font-size:50px;
+}
+
+body{
+     
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color:yellowgreen;
+  color:white;
+}
+table{
+    color:blue;
+    background-color: black;
+    font-size:50px;
+}
