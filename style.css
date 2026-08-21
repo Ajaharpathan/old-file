@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: pink;
     background-color: black;
     font-size:80px;
@@ -22,4 +22,88 @@ table{
     color:blue;
     background-color: black;
     font-size:50px;
+} */
+
+.t_align{
+    text-align: center;
+    color:red;
+    background-color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+
+}
+
+.t_trasnform{
+    text-align: center;
+    color:rgb(58, 206, 0);
+    text-transform: uppercase;
+}
+
+#t_decorate{
+    text-decoration: underline;
+}
+
+.t_bold{
+    text-shadow: 4px 6px 8px yellow;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#t{
+    text-align: center ;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 6px 0px 0px pink;
+    text-transform: uppercase;
+}
+
+#lorem_p{
+    text-transform: uppercase;
+    text-shadow: 4px 4px 6.5px red;
+}
+.t_edit{
+    color:peru;
+    background-color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.t_decor_all{
+     text-decoration: underline overline line-through;
+    color:red;
+    text-align: center;
+}
+
+.t_decor_2{
+    text-decoration: overline;
+}
+.t_decor_1{
+    color:red;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+.t_decor_underline{
+    text-decoration: overline;
+    text-align: center;
+
+}
+
+.t_decor_overline{
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.t_decor_linethrough{
+    text-align: center;
+    text-decoration: line-through;
 }
