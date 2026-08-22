@@ -24,7 +24,7 @@ table{
     font-size:50px;
 } */
 
-.t_align{
+/* .t_align{
     text-align: center;
     color:red;
     background-color: black;
@@ -106,4 +106,76 @@ body{
 .t_decor_linethrough{
     text-align: center;
     text-decoration: line-through;
+} */
+
+.t_align{
+    text-align: center;
+    color:aquamarine;
+    text-transform: capitalize;
+}
+.t_transform{
+    text-transform: capitalize;
+    color:black;
+}
+#t_transform1{
+    text-transform: capitalize;
+    background-color: yellow;
+}
+
+.t_cc{
+    text-align: center;
+    color:brown;
+}
+
+.t_cb{
+    text-align: center;
+    font-size: 50px;
+    color:blue;
+
+}
+
+.t_decor{
+    text-align: center;
+    color:chocolate;
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.t_u{
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+
+.t_line{
+    text-decoration: line-through;
+
+}
+
+.c_ct{
+    text-transform: uppercase;
+    text-align: center;
+    /* background-color: cadetblue; */
+}
+
+.c_bc{
+    text-transform: capitalize;
+    /* background-color: bisque; */
+}
+
+.backc{
+    background-color:silver;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwO0wY2zmLQ-AFOwPUfj_GWNfC4AVxIUeIKEocoo0a9g&s=10);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}  
+
+.footer{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.t_center{
+    text-align: center;
 }
