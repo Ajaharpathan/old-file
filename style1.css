@@ -1,17 +1,17 @@
-* {
+/* * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
+        } */
 
-        body {
+        /* body {
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             background: #111;
             font-family: Arial, sans-serif;
-        }
+        } */
 
         .watch {
             background: #222;
@@ -33,3 +33,70 @@
             color: #ccc;
         }
     
+        .hello{
+            color:pink;
+            text-align: center;
+            font-style: italic;
+            font-size: 100px;
+
+        }
+
+       .t_color{
+        color:pink;
+       }
+       .box{
+        height: 200px;
+        width:200px;
+        background-color:lightblue;
+        padding: 20px;
+        margin:20px;
+        border:7px solid red;
+        text-align: center;
+       }
+
+       .box1{
+        position:static;
+
+       }
+
+       
+       .box2{
+        position:absolute;
+        left:400px;
+        top: 200px;
+       }
+
+       .box3{
+        position: relative;
+        left:200px;
+        top: 100px;
+       }
+
+       .box4{
+        position:fixed;
+        left: 50px;
+        top: 20px;
+       }
+ 
+       .box5{
+        position:sticky;
+        left:1000px;
+        top: 50px;
+        bottom: 50px;
+    
+       }
+
+       .t_linear{
+        height: 500px;
+        background:linear-gradient(to left, red, blue, green, yellow, pink);
+       }
+
+       .t_conic{
+        height: 400px;
+        background:conic-gradient(from 120deg, red, pink, yellow, blue);
+       }
+       
+       .t_gradient{
+        height: 400px;
+        background: radial-gradient(circle, red, pink, lightblue, lightgrey, lightpink, lightyellow);
+       }
