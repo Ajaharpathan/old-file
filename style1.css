@@ -188,8 +188,8 @@
         font-size: 20px;
         padding: 20px;
         margin:15px;
-        border-radius: 5px solid red;
-        transition: transform 1s ease-in;
+        border-radius: 10px solid red;
+        transition: transform 2s ease-in;
         
 
      }
@@ -213,18 +213,20 @@
     }
 
     .b4:hover{
-        transform: rotate(3360deg);
+        transform: rotate(360deg);
         background-color: burlywood;
     }
 
-    .b5:hover{
-        transform: skew(40deg);
-        background-color: gray;
+    .b7:hover{
+        transform: skewx(60deg);
+        background-color: green;
     }
 
     .b6:hover{
         transform:scale(-1.5);
         background-color: burlywood;
+
+
     }
 
     .h1_p{

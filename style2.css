@@ -1,0 +1,57 @@
+/* #main_topic{
+    color: blue;
+}
+
+*{
+    text-align: center;
+}
+
+h1,h3, h5{
+    font-family:  georgia;
+
+}
+
+body > p{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div > button{
+    background-color: purple;
+    color:azure;
+}
+
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+p:nth-child(odd){
+    color:yellow;
+}
+
+h1::first-letter{
+    color:red;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+} */
+
+
+div{
+    height:100px;
+    width: 600px;
+    background-color: pink;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-left-style:dashed  ;
+
+}
+
+h1{
+    color:green;
+    border-width: 5px;
+    border-style: dashed;   
+}
