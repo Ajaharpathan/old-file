@@ -61,8 +61,7 @@ body {
   top: 50%;
   left: 50%;
   aspect-ratio: 1/1;
-  width: 150%;
-  height: auto;
+ 
   border-radius: 50%;
   background: conic-gradient(#fff 0%, #000 3%, #409 60%, #fff 100%);
   animation: spin linear 2s infinite;
@@ -74,8 +73,10 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: calc(100% - var(--border));
-  height: calc(100% - var(--border));
+  height: 20px;
+  width: 20px;
+  /* width: calc(100% - var(--border));
+  height: calc(100% - var(--border)); */
   background: #000d;
   transform: translate(-50%, -50%);
   border-radius: var(--radius);
@@ -111,12 +112,7 @@ body {
   25% {
     border: 15px #4094 solid;
   }
-  50% {
-    border: 30px transparent solid;
-  }
-  100% {
-    border: 0 transparent solid;
-  }
+  
 }
 
     </style> 
