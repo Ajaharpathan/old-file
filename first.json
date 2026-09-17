@@ -1,0 +1,11 @@
+{
+    "name":"azhar",
+    "score": 11.45,
+    "license":null,
+    "isAdmin":false,
+    "shopItem":["food","clothes","sunflower oil"],
+    "myOjb":{
+        "name":"nested",
+        "marks":45
+    }
+}
